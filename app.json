@@ -1,0 +1,108 @@
+{
+  "name": "QUEEN-HANI",
+  "description": "THE FIRST BOT IN ENGLISH LANGUAGE❤️",
+  "logo": "https://files.catbox.moe/kunzpz.png",
+  "keywords": ["QUEEN-HANI"],
+  "success_url": "/",
+  "stack": "container",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "If you linked your WhatsApp using Pair or QR code, you received a code on WhatsApp. Copy that code and paste it in the box below.",
+      "required": true,
+      "value": "QUEEN-HANI;;;mZ0zCKoL#jxMyarv-PPMvU1TmuXhu_85oWZy0ik70_jUSEdO35-0"
+    },
+
+    "PREFIX": {
+      "description": "Choose a symbol to run your bot, e.g., . ! ? : & . Write one of them in the box below. Your bot will respond using that symbol.",
+      "required": true,
+      "value": "."
+    },
+
+    "MODE": {
+      "description": "If you want only yourself to use the bot, write private below. If you want everyone to use it, write below.",
+      "required": true,
+      "value": "public"
+    },
+
+    "ALWAYS_ONLINE": {
+      "description": "If you want the bot to appear online 24/7, write ❮true❯ below. If not, write ❮false❯.",
+      "required": true,
+      "value": "false"
+    },
+
+    "AUTO_STATUS_SEEN": {
+      "description": "When someone uploads a status, it will be automatically seen by the bot. If you want this feature ON, write ❮true❯ below. If you want it OFF, write ❮false❯.",
+      "required": true,
+      "value": "true"
+    },
+
+    "AUTO_STATUS_REACT": {
+      "description": "If you want the bot to react automatically after seeing a status, write ❮true❯ below. If you only want it to see without reacting, write ❮false❯ below.",
+      "required": true,
+      "value": "true"
+    },
+
+    "OWNER_NAME": {
+      "description": "Write the name of the person who will use the bot.",
+      "required": true,
+      "value": "DACH TECH"
+    },
+
+    "OWNER_NUMBER": {
+      "description": "Enter the WhatsApp number of the bot owner. Only this number will have full access to all bot commands. Others won’t be able to use restricted commands.",
+      "required": true,
+      "value": "256780799501"
+    },
+
+    "ANTI_LINK": {
+      "description": "If anyone sends a link in the group, the bot will delete it and remove that person. To enable this feature, write ❮true❯ below. To disable it, write ❮false❯.",
+      "required": true,
+      "value": "true"
+    },
+
+    "WELCOME": {
+      "description": "If you want the bot to send a welcome message when a new member joins a group, write ❮true❯ below. To disable, write ❮false❯.",
+      "required": true,
+      "value": "true"
+    },
+
+    "READ_MESSAGE": {
+      "description": "If you want the bot to automatically mark all messages as read (even in groups), write ❮true❯ below. To turn it off, write ❮false❯.",
+      "required": true,
+      "value": "false"
+    },
+
+    "AUTO_RECORDING": {
+      "description": "If you want others to see the 'recording audio...' status whenever the bot is active, write ❮true❯ below. Otherwise, write ❮false❯.",
+      "required": true,
+      "value": "false"
+    },
+
+    "AUTO_TYPING": {
+      "description": "If you want others to see the 'typing...' status whenever the bot is active, write ❮true❯ below. Otherwise, write ❮false❯.",
+      "required": true,
+      "value": "false"
+    },
+
+    "HEROKU_API_KEY": {
+      "description": "Enter your Heroku API key from your Heroku account settings.",
+      "required": true,
+      "value": "HRKU-AAitNkkFTwnQp7KNgB9netmWb6sa8kTR29D8fJVsBf6Q_____wcQ98sMnMOX"
+    },
+
+    "HEROKU_APP_NAME": {
+      "description": "Enter the Heroku app name of your bot here.",
+      "required": true,
+      "value": "bilalmdtest"
+    }
+  },
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+
+  "stack": "heroku-24"
+}
