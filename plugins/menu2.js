@@ -25,16 +25,18 @@ cmd({
 async (conn, mek, m, { from, sender, pushname, reply }) => {
     try {
         let totalCommands = Object.keys(commands).length;
-        const caption = `*┏────〘 queen 〙───⊷*
+        const caption = 
+`*┏────〘 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐍𝐈 𝐆𝐓𝐃〙───⊷*
 *┃  Owner:* ${config.OWNER_NAME}
 *┃  Prefix:* ${config.PREFIX}
-*┃  Version:* 1.0.0 Beta
+*┃  Version:* 3.0.0 Beta
+*┃  Developer:* ᴅᴀᴄʜ x ᴛᴇᴄʜ 
 *┃  Platform:* Heroku
 *┃  Total Commands:* ${totalCommands}
 *┃  Runtime:* ${runtime(process.uptime())}
 *┗──────────────⊷*
 
-*┏────〘 queen 〙───⊷*
+*┏────〘 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐍𝐈 𝐆𝐓𝐃 〙───⊷*
 *┃ 1.  Quran Menu*
 *┃ 2.  Setting Menu*
 *┃ 3.  AI Menu*
