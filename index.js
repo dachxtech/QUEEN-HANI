@@ -134,7 +134,8 @@ conn.ev.on('connection.update', (update) => {
 │ *Prefix* : ${prefix}
 │ *Status* : Ready for use
 │ *Follow Channel* : the 
-│ https://tinyurl.com/464a84hp
+│ https://whatsapp.com/channel/0029Vb6RoNb0bIdgZPwcst2Y
+│ *Fork And Star GitHub* : Https://www.github.com/dachxtech/QUEEN-HANI
 ╰──────────────⊷*
 
 > *Report any error to the dev*
