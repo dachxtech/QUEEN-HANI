@@ -72,7 +72,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-console.log("SESSIO-ID CONNECTED 🙂")
+console.log("HANI👑SESSION CONNECTED ☑️")
 })})}
 
 const express = require("express");
@@ -129,7 +129,8 @@ conn.ev.on('connection.update', (update) => {
   console.log('plugins loaded succesfully')
   console.log('🥰QUEEN HANI STARTED🥰')
   
-  let up = `╭──〔 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 〕───⊷
+  let up = `╭──〔 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐍𝐈 𝐆𝐓𝐃 〕───⊷
+│ *Feel The Ultimate Experience*
 │ *Prefix* : ${prefix}
 │ *Status* : Ready for use
 │ *Follow Channel* : the 
