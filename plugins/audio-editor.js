@@ -1,4 +1,4 @@
-// IMMU MD ALWAYS ON TOP 💜
+// 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐍𝐈 𝐆𝐓𝐃 𝐀𝐋𝐖𝐀𝐘𝐒 𝐎𝐍 𝐓𝐎𝐏💙
 
 const { cmd } = require('../command');
 const audioEditor = require('../data/audioeditor');
