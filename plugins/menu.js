@@ -58,7 +58,7 @@ cmd({
   alias: ['allmenu'],
   desc: 'Show all bot commands',
   category: 'menu',
-  react: '👌',
+  react: '💙',
   filename: __filename
 }, async (conn, mek, m, { from, sender, reply }) => {
   try {
@@ -76,14 +76,14 @@ cmd({
     };
 
     let menu = `
-*┏────〘 queen hani 〙───⊷*
+*┏────〘 𝐐𝐔𝐄𝐄𝐍 𝐇𝐀𝐍𝐈 𝐆𝐓𝐃 〙───⊷*
 *┃ ᴜꜱᴇʀ : @${sender.split("@")[0]}*
 *┃ ʀᴜɴᴛɪᴍᴇ : ${uptime()}*
 *┃ ᴍᴏᴅᴇ : ${config.MODE}*
 *┃ ᴘʀᴇғɪx : 「 ${config.PREFIX}」* 
 *┃ ᴏᴡɴᴇʀ : ${config.OWNER_NAME}*
 *┃ ᴘʟᴜɢɪɴꜱ : 『 ${commands.length} 』*
-*┃ ᴅᴇᴠ : queen*
+*┃ ᴅᴇᴠ : ᴅᴀᴄʜ x ᴛᴇᴄʜ*
 *┃ ᴠᴇʀꜱɪᴏɴ : 2.0.0*
 *┗──────────────⊷*`;
 
@@ -116,7 +116,7 @@ cmd({
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: config.NEWSLETTER_JID || '120363401831624774@newsletter',
-        newsletterName: config.OWNER_NAME || toUpperStylized('queen'),
+        newsletterName: config.OWNER_NAME || toUpperStylized('ᴅᴀᴄʜ x ᴛᴇᴄʜ),
         serverMessageId: 143
       }
     };
@@ -146,7 +146,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterName: config.OWNER_NAME || toUpperStylized('queen'),
+              newsletterName: config.OWNER_NAME || toUpperStylized('ᴅᴀᴄʜ x ᴛᴇᴄʜ'),
               serverMessageId: 143
             }
           }
